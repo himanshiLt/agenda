@@ -1,12 +1,10 @@
 postMerge :
   preRun:
     command:
-
-
       - yarn install
       - yarn run build
   
-  subModules:          #Not to be changed
+  subModules:         
         
       - name: agenda     
         path : "./"
