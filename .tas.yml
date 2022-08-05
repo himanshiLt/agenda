@@ -8,9 +8,9 @@ postMerge :
         
       - name: agenda     
         path : "./"
-#         pattern: 
-#           - "./test/*.js"
-        framework : mocha
+        pattern: 
+          - "./test/*.js"
+        framework : movha
         preRun:
           env:
             USE_MONGODB: true
