@@ -8,8 +8,8 @@ postMerge :
         
       - name: agenda     
         path : "./"
-        pattern: 
-          - "./test/*.js"
+#         pattern: 
+#           - "./test/*.js"
         framework : mocha
         preRun:
           env:
